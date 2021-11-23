@@ -174,8 +174,8 @@ def make_sample_images(dataset, bininfo, path):
                 transform = ax.transAxes,
                 ha = "right",
                 va = "top",
-                fontsize = mpl.rcParams["font.size"]*1.25,
-                fontweight = "normal",
+                fontsize = mpl.rcParams["font.size"]*2.0,
+                fontweight = "bold",
                 fontname = "TeX Gyre Heros",
                 color = "w",
             )
